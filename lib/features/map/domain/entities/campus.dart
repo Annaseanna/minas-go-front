@@ -6,7 +6,7 @@ abstract final class Campus {
     'minas': 'Minas',
     'volador': 'El Volador',
     'rio': 'El Río',
-    'rio_de_janeiro': 'Río de Janeiro',
+    'rio_de_janeiro': 'Instituto Benjamin Constant',
   };
 
   /// Human readable name for a campus key; unknown keys are title-cased.

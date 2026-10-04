@@ -29,7 +29,7 @@ void main() {
       expect(Campus.humanNombre('minas'), 'Minas');
       expect(Campus.humanNombre('volador'), 'El Volador');
       expect(Campus.humanNombre('rio'), 'El Río');
-      expect(Campus.humanNombre('rio_de_janeiro'), 'Río de Janeiro');
+      expect(Campus.humanNombre('rio_de_janeiro'), 'Instituto Benjamin Constant');
     });
 
     test('title-cases unknown keys instead of showing raw snake_case', () {
@@ -48,7 +48,7 @@ void main() {
 
       expect(
         Campus.distinct(puntos),
-        ['rio', 'volador', 'minas', 'rio_de_janeiro'],
+        ['rio', 'volador', 'rio_de_janeiro', 'minas'],
       );
     });
 
